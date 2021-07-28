@@ -1,6 +1,6 @@
 const svgToDataUri = require('mini-svg-data-uri')
-const plugin = require('tailwindcss/plugin')
-const defaultTheme = require('tailwindcss/defaultTheme')
+const plugin = require('@tailwindcss/postcss7-compat/plugin')
+const defaultTheme = require('@tailwindcss/postcss7-compat/defaultTheme')
 const [baseFontSize, { lineHeight: baseLineHeight }] = defaultTheme.fontSize.base
 const { colors, spacing, borderWidth, borderRadius, outline } = defaultTheme
 
